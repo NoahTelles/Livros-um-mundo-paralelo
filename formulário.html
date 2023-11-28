@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estrutura.css">
+    <title></title>
+</head>
+<body>
+    <header class="col-12">
+        <div id="cor" class="row">
+            <section class="col-6 border-bottom border-secondary">
+                <img id="imgc" src="img/cabeçalho.jpg" class="rounded float-left col-md-4 col-6 img-fluid">
+            </section>
+            <section class="col-6 border-bottom border-secondary mt-1 row">
+              <p class="col-5"></p>
+              <div class="col-12 col-md-6 row ">
+                  <div class="col-6">
+                    <figure class="rounded "><a href="formulário.html"><img src="img/icon.jpg" id="imgr"  class="img-fluid"></a>
+                        <figcaption>Cadastre-se aqui</figcaption>
+                    </figure>
+                    </div>
+                    <div class="col-6">
+                    <a href="index.html"><img src="img/home.jpg" class="rounded img-fluid"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <br />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <section bclass="navbar-brand">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-secondary btn-lg active col-4" type="submit">Pesquisar</button>
+                </form>
+            </section>
+            <button class="navbar-toggler rounded float-right" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="novels.html" class="btn btn-secondary btn-lg active col-3 ml-1" role="button"
+                    aria-pressed="true">novels</a>
+                        <a href="editoras.html" class="btn btn-secondary btn-lg active col-3 ml-1" tabindex="-1" role="button"
+                        aria-disabled="true">editoras</a>
+                        <a href="nacionais.html" class="btn btn-secondary btn-lg active col-3 ml-1" tabindex="-1" role="button"
+                        aria-disabled="true">nacionais</a>
+                    <a href="suspense.html" class="btn btn-secondary btn-lg active col-3 ml-1" role="button"
+                        aria-pressed="true">suspense</a>
+                        <a href="terror.html" class="btn btn-secondary btn-lg active col-3 ml-1" role="button"
+                        aria-pressed="true">terror</a>
+                    <a href="resenhas.html" class="btn btn-secondary btn-lg active col-3 ml-1" role="button"
+                        aria-pressed="true">resenhas</a>
+                    <a href="recomendações.html" class="btn btn-secondary btn-lg active col-3 ml-1" role="button"
+                        aria-pressed="true">recomendações</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p>
+        <h1 id="fcor" class=" ml-auto mr-auto text-center col-md-8 col-12">Cadastre-se no site!</h1>
+        <form class="p-2 col-md-8 col-12 ml-auto mr-auto"  id="fcor" action="/login.php" method="post">
+            <div class="form-group row">
+                <label for="nome" class="col-sm-2 col-form-label">Nome de usuário</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@exemplo.com">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="telefone" class="col-sm-2 col-form-label">telefone</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="00000-0000" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}$" required>
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+                </div>
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Sua Idade:</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="idade17" value="opcao1" checked>
+                      <label class="form-check-label" for="idede17">
+                        Menos que 18 anos
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="idade18" value="opcao2">
+                      <label class="form-check-label" for="idade18">
+                        Maior ou igual a 18 anos
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            <button class="btn btn-secundary" type="submit">Enviar</button>
+        </form>
+        </p>
+    </main>
+ 
+    <footer id="cor" class="border-top border-secondary rounded text-center mt-3">
+        <address>
+            <p>Contate-nos: </p>
+            <p>carnedegaivota@gmail.com</p>
+            <p>(54) 998273549</p>
+        </address>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿body { 
+    font-family: Comic sans-serif, Arial, 'Lucida Sans';
+    background-color: rgb(241, 241, 241);
+}
+#cor{
+   background-color:  rgb(140, 141, 141);
+   border-color:rgb(140, 141, 141);
+}
+#imgr{
+    border:none;
+    border-radius: 10px;
+}
+#fcor{
+    border: 2px dotted rgb(49, 95, 60);
+    border-radius: 10px;
+    padding:5px;
+}
+#icor{
+    border:2px dotted rgb(92, 139, 209);
+    border-radius: 10px;
+}
+table, td{
+    border:solid black 1px;
+}
+th {
+    border:solid black 1px;
+    background-color: rgb(92, 139, 209) ;
+}
+tr{ 
+    border:solid black 1px;
+    background-color: rgb(179, 204, 241);
+}
+#scor{
+    border: 2px dotted rgb(255, 72, 72);
+    border-radius: 10px;
+}
+#nacor{
+    border: 2px dotted rgb(55, 182, 63);
+    border-radius: 10px;
+}
+#recocor{
+    border: 2px dotted  rgb(8, 190, 145);
+    border-radius: 10px;
+}
+#resecor{
+    border: 2px dotted  rgb(79, 56, 116);
+    border-radius: 10px;
+}
+#tecor{
+    border: 2px dotted  rgb(83, 83, 83);
+    border-radius: 10px;
+}
+#ecor{
+    border: 2px dotted  rgb(175, 0, 0);
+    border-radius: 10px;
+}
+#ncor{
+    border: 2px dotted  rgb(138, 21, 146);
+    border-radius: 10px;
+}
